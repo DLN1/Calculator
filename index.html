@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="calc">
+        <h4>Calc</h4>
+        <input type="text" id="display" disabled />
+
+        <div class="buttons" id="buttons">
+          <input type="button" id="btn-7" value="7" onClick="dis('7')"></input>
+          <input type="button" id="btn-7" value="8" onClick="dis('8')"></input>
+          <input type="button" id="btn-7" value="9" onClick="dis('9')"></input>
+          <input type="button" id="btn-7" value="DEL" onClick="del()"></input>
+
+          <input type="button" id="btn-7" value="4" onClick="dis('4')"></input>
+          <input type="button" id="btn-7" value="5" onClick="dis('5')"></input>
+          <input type="button" id="btn-7" value="6" onClick="dis('6')"></input>
+          <input type="button" id="btn-7" value="+" onClick="dis(' + ')"></input>
+
+          <input type="button" id="btn-7" value="1" onClick="dis('1')"></input>
+          <input type="button" id="btn-7" value="2" onClick="dis('2')"></input>
+          <input type="button" id="btn-7" value="3" onClick="dis('3')"></input>
+          <input type="button" id="btn-7" value="-" onClick="dis(' - ')"></input>
+
+          <input type="button" id="btn-7" value="." onClick="dis('.')"></input>
+          <input type="button" id="btn-7" value="0" onClick="dis('0')"></input>
+          <input type="button" id="btn-7" value="/" onClick="dis(' / ')"></input>
+          <input type="button" id="btn-7" value="x" onClick="dis(' * ')"></input>
+
+          <input type="button" id="btn-7" value="RESET" onClick="clr()"></input>
+          <input type="button" id="btn-7" value="=" onClick="solve()"></input>
+
+
+          
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
